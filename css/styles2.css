@@ -1,0 +1,170 @@
+html{
+    background-color: black;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.text-primary{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    color: orange;
+}
+
+.logo{
+    height: 3%;
+    width: 3%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav a {
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: larger;
+}
+
+.js-scroll-trigger {
+    color: black;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    padding: 100px 0;
+    
+    color: #fff;
+    background: url('path/to/your-background-image.jpg') center center/cover no-repeat;
+}
+
+.movie-item{
+    display: inline-block;
+    padding: 45px;
+    
+
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+/* Main content styles */
+.container {
+    margin-top: 50px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 80px 0;
+    }
+
+    .navbar-collapse {
+        background-color: #343a40;
+    }
+}
+
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff; /* Text color */
+    background-color: #ffA500; /* Orange background color */
+    border: 2px solid #ffA500; /* Border color */
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+  }
+  .btn-primary:hover {
+    background-color: #ff7f00; /* Darker orange on hover */
+    color: #ffffff; /* Text color on hover */
+    border: 2px solid #ff7f00; /* Border color on hover */
+  }
+
+  
+  .movie-item {
+    position: relative;
+    #width: 300px; /* Adjust the width as needed */
+    width: 200px;
+    height: 400px;
+  }
+  
+  .movie-item img {
+    #width: 100%;
+    #height: auto;
+    width: 200px;
+    height: 400px;
+    display: block;
+
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    width: 200px;
+    height: 400px;
+    background-color: rgba(113, 112, 109, 0.5); /* Orange with 50% opacity */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .movie-item:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .btn-primary {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .reserve-img {
+    margin-left: 20px;
+    width: 300px;
+    height : 500px;
+    margin-bottom: 30px;
+  }
